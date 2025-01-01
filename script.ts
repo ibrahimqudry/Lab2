@@ -24,7 +24,7 @@ class Square extends Rectangle {
     }
 }
 
-let rectangle = new Rectangle(4, 5);
+let rectangle = new Rectangle(2, 3);
 let square = new Square(4);
 console.log(rectangle.calcCircumference());
 console.log(square.calcCircumference());
